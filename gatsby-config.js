@@ -7,9 +7,6 @@ const { userName, userEmail } = require("./data/SiteConfig");
 const validatedPathPrefix = config.pathPrefix === "" ? "/" : config.pathPrefix;
 
 module.exports = {
-  siteTitle: "Advanced Techniques discovery by Ros1neo",
-  siteTitleShort: "AT by Ros1neo",
-  userName: "Ros1neo",
   pathPrefix: validatedPathPrefix,
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
